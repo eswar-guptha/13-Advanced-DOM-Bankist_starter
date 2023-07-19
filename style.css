@@ -35,9 +35,8 @@ body {
 
 /* GENERAL ELEMENTS */
 .section {
-  padding: 15rem 3rem;
+  padding: 9.6rem 3.2rem;
   border-top: 1px solid #ddd;
-
   transition: transform 1s, opacity 1s;
 }
 
@@ -115,12 +114,13 @@ img {
 
 /* NAVIGATION */
 .nav {
+  margin-bottom: 2.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 9rem;
   width: 100%;
-  padding: 0 6rem;
+  /* padding: 0 6rem; */
   z-index: 100;
 }
 
